@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="Golf5.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    
+  </head>
+  <body>
+  <div class="container-fluid">
+    
+    <div class="jumbotron" id="jTron">
+      <h1 class="display-4">Golf Score Card</h1>
+      <!--<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>-->
+      <hr class="my-4">
+      <!--<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>-->
+      <!--<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>-->
+    </div>
+  </div>
+  <div class="container-fluid score-card-container">
+    <div class="score-card">
+  
+    
+    <div class="row">
+      <div class="col-2">
+        <p><strong>Name</strong></p>
+
+      </div>
+      <div class="col-1">
+        <h6>1</h6>
+
+      </div>
+      <div class="col-1">
+        <h6>2</h6>
+
+      </div>
+      <div class="col-1">
+        <h6>3</h6>
+
+      </div>
+      <div class="col-1">
+        <h6>4</h6>
+
+      </div>
+      <div class="col-1">
+        <h6> 5</h6>
+
+      </div>
+      <div class="col-1">
+        <h6>6</h6>
+
+      </div>
+      <div class="col-1">
+        <h6>7</h6>
+
+      </div>
+      <div class="col-1">
+        <h6>8</h6>
+
+      </div>
+      <div class="col-1">
+        <h6>9</h6>
+
+      </div>
+      <div class="col-1">
+        <h6>Out</h6>
+
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <input type="text" id="player1" name="playerName">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player1hole1" name="player1hole1">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player1hole2" name="player1hole2">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player1hole3" name="player1hole3">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player1hole4" name="player1hole4">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player1hole5" name="player1hole5">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player1hole6" name="player1hole6">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player1hole7" name="player1hole7">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player1hole8" name="player1hole8">
+
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player1hole9" name="player1hole9">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player1outscore" name="player1outscore">
+
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <input type="text" id="player1" name="playerName">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player2hole1" name="player2hole1">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player2hole2" name="player2hole2">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player2hole3" name="player2hole3">
+
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player2hole4" name="player2hole4">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player2hole5" name="player2hole5">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player2hole6" name="player2hole6">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player2hole7" name="player2hole7">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player2hole8" name="player2hole8">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player2hole9" name="player2hole9">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player2outscore" name="player2houtscore">
+
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <input type="text" id="player3" name="playerName">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player3hole1" name="player3hole1">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player3hole2" name="player3hole2">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player3hole3" name="player3hole3">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player3hole4" name="player3hole4">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player3hole5" name="player3hole5">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player3hole6" name="player3hole6">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player3hole7" name="player3hole7">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player3hole8" name="player3hole8">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player3hole9" name="player3hole9">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player3outscore" name="player3outscore">
+
+
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <input type="text" id="player4" name="playerName">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player4hole1" name="player4hole1">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player4hole2" name="player4hole2">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player4hole3" name="player4hole3">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player4hole4" name="player4hole4">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player4hole5" name="player4hole5">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player4hole6" name="player4hole6">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player4hole7" name="player4hole7">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player4hole8" name="player4hole8">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player4hole9" name="player4hole9">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player4outscore" name="player4houtscore">
+
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <p><strong>Name</strong></p>
+
+      </div>
+      <div class="col-1">
+        <h6>10</h6>
+
+      </div>
+      <div class="col-1">
+        <h6>11</h6>
+
+      </div>
+      <div class="col-1">
+        <h6>12</h6>
+
+      </div>
+      <div class="col-1">
+        <h6>13</h6>
+
+      </div>
+      <div class="col-1">
+        <h6>14</h6>
+
+      </div>
+      <div class="col-1">
+        <h6>15</h6>
+
+      </div>
+      <div class="col-1">
+        <h6>16</h6>
+
+      </div>
+      <div class="col-1">
+        <h6>17</h6>
+
+      </div>
+      <div class="col-1">
+        <h6>18</h6>
+
+      </div>
+      <div class="col-1">
+        <h6>In</h6>
+
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <input type="text" id="player1" name="playerName">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player1hole1" name="player1hole1">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player1hole2" name="player1hole2">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player1hole3" name="player1hole3">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player1hole4" name="player1hole4">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player1hole5" name="player1hole5">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player1hole6" name="player1hole6">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player1hole7" name="player1hole7">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player1hole8" name="player1hole8">
+
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player1hole9" name="player1hole9">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player1outscore" name="player1outscore">
+
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <input type="text" id="player1" name="playerName">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player2hole1" name="player2hole1">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player2hole2" name="player2hole2">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player2hole3" name="player2hole3">
+
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player2hole4" name="player2hole4">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player2hole5" name="player2hole5">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player2hole6" name="player2hole6">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player2hole7" name="player2hole7">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player2hole8" name="player2hole8">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player2hole9" name="player2hole9">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player2outscore" name="player2houtscore">
+
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <input type="text" id="player3" name="playerName">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player3hole1" name="player3hole1">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player3hole2" name="player3hole2">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player3hole3" name="player3hole3">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player3hole4" name="player3hole4">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player3hole5" name="player3hole5">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player3hole6" name="player3hole6">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player3hole7" name="player3hole7">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player3hole8" name="player3hole8">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player3hole9" name="player3hole9">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player3outscore" name="player3houtscore">
+
+
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <input type="text" id="player4" name="playerName">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player4hole1" name="player4hole1">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player4hole2" name="player4hole2">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player4hole3" name="player4hole3">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player4hole4" name="player4hole4">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player4hole5" name="player4hole5">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player4hole6" name="player4hole6">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player4hole7" name="player4hole7">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player4hole8" name="player4hole8">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player4hole9" name="player4hole9">
+
+      </div>
+      <div class="col-1">
+        <input type="text" id="player4inscore" name="player4hinscore">
+
+      </div>
+
+    </div>
+    </div>
+    </div>
+    
+    
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
